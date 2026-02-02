@@ -36,4 +36,4 @@ clean:
 
 .PHONY: install
 install: all
-	pip install dist/*.whl
+	uv pip install dist/*.whl
